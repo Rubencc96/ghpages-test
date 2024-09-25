@@ -1,5 +1,5 @@
 
-// Function to generate a random color in hex format
+
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -27,8 +27,8 @@ document.getElementById("changeTextButton").addEventListener("click", function()
         }
 
     } else {
-        const randomColor = getRandomColor(); // Generate a random color
-        document.body.style.backgroundColor = randomColor; // Apply the random color to the background
+        const randomColor = getRandomColor();
+        document.body.style.backgroundColor = randomColor; 
 
     }
         
